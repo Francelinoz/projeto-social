@@ -17,8 +17,10 @@ body{
     background-image: url('../imagens/fundo-black.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: center center;
+    position: top center;
     background-attachment: fixed;
+
+    backdrop-filter: blur(6px);
 
 }
 
@@ -47,6 +49,29 @@ main{
     top:80px;
     left: 22px;
 
-    width: 269px;
+    width: 267px;
     height: 471px;
+}
+
+#social-media {
+    text-align: right;
+}
+#social-media img{
+    width: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(202, 202, 202, 0.37);
+}
+
+#social-media img:hover{
+    transform: translate(-3px , -3px);
+
+    box-shadow: 0px 5px 17px rgba(255, 255, 255, 0.473);
+
+    transition: 0.4s;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+
+
+
 }
